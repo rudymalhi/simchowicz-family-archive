@@ -167,7 +167,7 @@ h1 { max-width: 720px; font-size: clamp(2.9rem, 7vw, 6.5rem); letter-spacing: -.
 [dir="rtl"] .brand { margin-right: 0; margin-left: auto; }
 [dir="rtl"] .main-nav { direction: rtl; }
 [dir="rtl"] .timeline::before { left: auto; right: 112px; }
-[dir="rtl"] .timeline-item { grid-template-columns: 92px 1fr; }
+[dir="rtl"] .timeline-item { grid-template-columns: 1fr 92px; }
 [dir="rtl"] .timeline-year { text-align: right; }
 [dir="rtl"] .timeline-copy { padding-left: 0; padding-right: 25px; }
 [dir="rtl"] .timeline-dot { left: auto; right: 107px; }
@@ -197,7 +197,7 @@ h1 { max-width: 720px; font-size: clamp(2.9rem, 7vw, 6.5rem); letter-spacing: -.
   .timeline-item { grid-template-columns: 64px 1fr; gap: 30px; }
   .timeline-dot { left: 76px; }
   [dir="rtl"] .timeline::before { left: auto; right: 81px; }
-  [dir="rtl"] .timeline-item { grid-template-columns: 64px 1fr; }
+  [dir="rtl"] .timeline-item { grid-template-columns: 1fr 64px; }
   [dir="rtl"] .timeline-dot { left: auto; right: 76px; }
   .ledger-row { grid-template-columns: 1fr; gap: 4px; }
   .ledger-head { display: none; }
