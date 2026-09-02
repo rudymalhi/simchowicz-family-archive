@@ -24,4 +24,4 @@ The public version intentionally does not publish current private addresses or p
 
 ## Research notes
 
-The site records `Grenadierstraße 14` as the strongest documented Paula address. The earlier claim of No. 17 is not used as a fact. The possible identification of `Skarsicz` as Skarżysko-Kamienna remains explicitly marked as unconfirmed.
+The site records `Grenadierstraße 17` as the corrected family address, supported by the 1929 Jewish Berlin address book entry for Mathes Sinechowitz. A JRI-Poland record for Mathes Scherer, born 24 September 1889 to Ides Simchowicz, is presented as a possible but unconfirmed identity lead. The possible identification of `Skarsicz` as Skarżysko-Kamienna remains explicitly marked as unconfirmed.
