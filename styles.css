@@ -94,6 +94,12 @@ h1 { max-width: 720px; font-size: clamp(2.9rem, 7vw, 6.5rem); letter-spacing: -.
 .tree-connector { height: 22px; width: 1px; background: rgba(207,157,73,.8); margin: -24px auto 0; }
 .children { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 10px; }
 .children .tree-card { border-color: rgba(207,157,73,.38); }
+.family-lead { margin-top: 16px; padding: 20px 22px; border: 1px solid rgba(183,100,66,.32); border-left: 4px solid var(--rust); border-radius: 16px; background: rgba(255,253,248,.62); }
+.family-lead .kicker { margin-bottom: 7px; }
+.family-lead p { margin: 0; }
+.family-lead > p:nth-child(2) { color: var(--muted); max-width: 900px; }
+.family-lead .note { margin-top: 10px; }
+.family-lead a { font-weight: 750; }
 .status { display: inline-flex; align-items: center; width: fit-content; padding: 4px 8px; border-radius: 999px; font-size: .64rem; font-weight: 800; letter-spacing: .04em; margin-top: 10px; }
 .status.direct { background: rgba(89, 176, 172, .18); color: #9fe2dc; }
 .status.family { background: rgba(207,157,73,.18); color: #ebc678; }
@@ -173,6 +179,7 @@ h1 { max-width: 720px; font-size: clamp(2.9rem, 7vw, 6.5rem); letter-spacing: -.
 [dir="rtl"] .timeline-year { text-align: right; }
 [dir="rtl"] .timeline-copy { padding-left: 0; padding-right: 25px; }
 [dir="rtl"] .timeline-dot { left: auto; right: 107px; }
+[dir="rtl"] .family-lead { border-left-width: 1px; border-right: 4px solid var(--rust); }
 [dir="rtl"] .fact { border-left: 0; border-right: 2px solid var(--gold); padding: 8px 12px 8px 0; }
 [dir="rtl"] .footer-meta { text-align: left; }
 
