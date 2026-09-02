@@ -182,7 +182,7 @@ h1 { max-width: 720px; font-size: clamp(2.9rem, 7vw, 6.5rem); letter-spacing: -.
 [dir="rtl"] .main-nav { direction: rtl; }
 [dir="rtl"] .timeline { max-width: 920px; }
 [dir="rtl"] .timeline::before { left: auto; right: 112px; }
-[dir="rtl"] .timeline-item { direction: rtl; grid-template-columns: 92px minmax(0, 1fr); column-gap: 42px; align-items: start; padding-bottom: 34px; }
+[dir="rtl"] .timeline-item { direction: rtl; grid-template-columns: 92px minmax(0, 1fr); column-gap: 42px; row-gap: 0; align-items: start; padding-bottom: 34px; }
 [dir="rtl"] .timeline-year { direction: rtl; grid-column: 1; grid-row: 1; text-align: right; padding-top: 2px; line-height: 1.35; white-space: nowrap; }
 [dir="rtl"] .timeline-copy { direction: rtl; grid-column: 2; grid-row: 1; min-width: 0; padding-left: 0; padding-right: 25px; }
 [dir="rtl"] .timeline-copy h3 { line-height: 1.18; margin-bottom: 8px; }
