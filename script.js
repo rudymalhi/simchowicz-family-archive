@@ -35,7 +35,7 @@ const t = {
     hero: {
       eyebrow: "A family memory, still being researched",
       title: "From Berlin to Tarnów — and through the wreckage of Europe",
-      lede: "The documented story of Paula Pnina Simchowicz / Rapoport and the Simchowicz family: Jewish life in interwar Berlin, expulsion to Poland, forced labor under Nazi occupation, and the work of remembering.",
+      lede: "The documented story of Paula Pnina Simchowicz / Rapoport and the Simchowicz family: Jewish life in interwar Berlin, expulsion to Poland, forced labor under Nazi occupation, and the work of remembering. Her life ended tragically on 19 October 1994 in the Tel Aviv Route 5 bombing.",
       primary: "Read the family story",
       secondary: "See the evidence",
       cardKicker: "The clearest thread",
@@ -191,7 +191,7 @@ const t = {
     hero: {
       eyebrow: "זיכרון משפחתי הנמצא עדיין במחקר",
       title: "מברלין לטארנוב — דרך חורבן אירופה",
-      lede: "הסיפור המתועד של פאולה פנינה שמחוביץ / רפפורט ושל משפחת שמחוביץ: החיים היהודיים בברלין שבין שתי מלחמות העולם, הגירוש לפולין, עבודת הכפייה תחת הכיבוש הנאצי, ומלאכת הזיכרון.",
+      lede: "הסיפור המתועד של פאולה פנינה שמחוביץ / רפפורט ושל משפחת שמחוביץ: החיים היהודיים בברלין שבין שתי מלחמות העולם, הגירוש לפולין, עבודת הכפייה תחת הכיבוש הנאצי, ומלאכת הזיכרון. חייה הסתיימו באופן טרגי ב־19 באוקטובר 1994 בפיגוע בקו 5 בתל אביב.",
       primary: "לקרוא את הסיפור המשפחתי",
       secondary: "לעיין בראיות",
       cardKicker: "החוט הברור ביותר",
@@ -305,7 +305,7 @@ const t = {
     hero: {
       eyebrow: "Eine Familienerinnerung, noch in Forschung",
       title: "Von Berlin nach Tarnów — durch die Zerstörung Europas",
-      lede: "Die dokumentierte Geschichte von Paula Pnina Simchowicz / Rapoport und der Familie Simchowicz: jüdisches Leben im Berlin der Zwischenkriegszeit, die Vertreibung nach Polen, Zwangsarbeit unter der NS-Besatzung und die Arbeit des Erinnerns.",
+      lede: "Die dokumentierte Geschichte von Paula Pnina Simchowicz / Rapoport und der Familie Simchowicz: jüdisches Leben im Berlin der Zwischenkriegszeit, die Vertreibung nach Polen, Zwangsarbeit unter der NS-Besatzung und die Arbeit des Erinnerns. Ihr Leben endete tragisch am 19. Oktober 1994 beim Anschlag auf die Buslinie 5 in Tel Aviv.",
       primary: "Die Familiengeschichte lesen",
       secondary: "Die Belege ansehen",
       cardKicker: "Der klarste Faden",
