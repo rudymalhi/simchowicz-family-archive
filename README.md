@@ -28,7 +28,7 @@ The site records `Grenadierstraße 17` as the primary family address, supported 
 
 New findings included in the site:
 
-- The official Israeli memorial record identifies Pnina Paula Rapoport Simchowicz as Paula’s later name, gives her parents as Esther and Matityahu, records immigration to Israel in August 1947, and documents her postwar marriage and family life.
+- The [official LAAD memorial page documenting Paula’s death](https://laad.btl.gov.il/Web/He/TerrorVictims/Page/Default.aspx?ID=38282) identifies Pnina Paula Rapoport Simchowicz as Paula’s later name, gives her parents as Esther and Matityahu, records immigration to Israel in August 1947, documents her postwar marriage and family life, and records her death on 19 October 1994 in the Tel Aviv Route 5 attack.
 - Arolsen cards for Rosa, Minni, and Sascha/Susi support a probable Berlin-born sibling household with father Mates, mother Erna/Ester née Offen, and Polish citizenship. The cards do not name Paula, so the relationship remains a documented reconstruction rather than a proven complete family tree.
 - A published family interview supplies additional postwar oral history: Paula and Shmuel reportedly met through UNRRA, lived in Italy for about a year, and then came to Israel. These details are labeled as family testimony.
 - Yad Vashem Collections record 4115983, titled `Shlomo Simkhovich`, is linked as a primary source for investigating Salo/Shlomo. It is kept separate from Arolsen record 78813850 (Sala), which remains unresolved as an identity match.
