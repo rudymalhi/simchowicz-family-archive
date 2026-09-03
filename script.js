@@ -31,7 +31,7 @@ const t = {
   en: {
     title: "Simchowicz Family Archive",
     brand: { title: "Simchowicz", subtitle: "family archive" },
-    nav: { family: "Family", updates: "New findings", timeline: "Timeline", places: "Places", sources: "Sources" },
+    nav: { family: "Family", photo: "Family photo", updates: "New findings", timeline: "Timeline", places: "Places", sources: "Sources" },
     hero: {
       eyebrow: "A family memory, still being researched",
       title: "From Berlin to Tarnów — and through the wreckage of Europe",
@@ -47,6 +47,13 @@ const t = {
       title: "A careful reconstruction",
       text: "This is an evolving memorial and research record. Direct documents are separated from information supplied in the family spreadsheet and from historical context. Names are kept in the forms found in the sources, because spelling changes often carry clues.",
       chips: ["Berlin", "Zbąszyń", "Tarnów", "Vilnius", "Tel Aviv"]
+    },
+    photo: {
+      kicker: "Family photograph",
+      title: "A portrait carried through the family archive",
+      text: "The adults are identified from left to right as Paula, Shlomo, Mathes, Esther, Rosa, and Isaac. The two children below are Mina and Sascha; which child is which remains unconfirmed. This identification is supplied by the family.",
+      alt: "Family photograph: Paula, Shlomo, Mathes, Esther, Rosa, and Isaac from left to right; Mina and Sascha below, order uncertain",
+      caption: "Family-supplied identification · adults left to right: Paula, Shlomo, Mathes, Esther, Rosa, Isaac · children below: Mina and Sascha, order uncertain"
     },
     updates: {
       kicker: "Research update · 3 September 2026",
@@ -187,7 +194,7 @@ const t = {
   he: {
     title: "ארכיון משפחת שמחוביץ",
     brand: { title: "שמחוביץ", subtitle: "ארכיון משפחתי" },
-    nav: { family: "המשפחה", updates: "ממצאים חדשים", timeline: "ציר זמן", places: "מקומות", sources: "מקורות" },
+    nav: { family: "המשפחה", photo: "תצלום המשפחה", updates: "ממצאים חדשים", timeline: "ציר זמן", places: "מקומות", sources: "מקורות" },
     hero: {
       eyebrow: "זיכרון משפחתי הנמצא עדיין במחקר",
       title: "מברלין לטארנוב — דרך חורבן אירופה",
@@ -203,6 +210,13 @@ const t = {
       title: "שחזור זהיר",
       text: "זהו ארכיון זיכרון ומחקר המתפתח בהדרגה. מסמכים ישירים מופרדים ממידע שהוזן בגיליון המשפחתי ומרקע היסטורי. השמות נשמרים בצורותיהם המקוריות, מפני ששינויים באיות עשויים להיות רמזים חשובים.",
       chips: ["ברלין", "זבונשין", "טארנוב", "וילנה", "תל אביב"]
+    },
+    photo: {
+      kicker: "תצלום משפחתי",
+      title: "דיוקן שנשמר בארכיון המשפחה",
+      text: "המבוגרים מזוהים משמאל לימין: פאולה, שלמה, מתֶס, אסתר, רוזה ויצחק. שני הילדים למטה הם מינה וסשה, אך עדיין לא ידוע מי מהם הוא מי. הזיהוי נמסר על ידי המשפחה.",
+      alt: "תצלום משפחתי: פאולה, שלמה, מתֶס, אסתר, רוזה ויצחק משמאל לימין; מינה וסשה למטה, הסדר ביניהם אינו ודאי",
+      caption: "זיהוי שנמסר על ידי המשפחה · המבוגרים משמאל לימין: פאולה, שלמה, מתֶס, אסתר, רוזה, יצחק · הילדים למטה: מינה וסשה, הסדר אינו ודאי"
     },
     updates: {
       kicker: "עדכון מחקר · 3 בספטמבר 2026",
@@ -301,7 +315,7 @@ const t = {
   de: {
     title: "Familienarchiv Simchowicz",
     brand: { title: "Simchowicz", subtitle: "Familienarchiv" },
-    nav: { family: "Familie", updates: "Neue Befunde", timeline: "Zeitleiste", places: "Orte", sources: "Quellen" },
+    nav: { family: "Familie", photo: "Familienfoto", updates: "Neue Befunde", timeline: "Zeitleiste", places: "Orte", sources: "Quellen" },
     hero: {
       eyebrow: "Eine Familienerinnerung, noch in Forschung",
       title: "Von Berlin nach Tarnów — durch die Zerstörung Europas",
@@ -317,6 +331,13 @@ const t = {
       title: "Eine vorsichtige Rekonstruktion",
       text: "Dies ist ein wachsendes Gedenk- und Forschungsarchiv. Direkte Dokumente werden von Angaben aus der Familien-Tabelle und von historischem Kontext getrennt. Die Namen bleiben in den Formen der Quellen erhalten, weil Schreibvarianten wichtige Hinweise geben können.",
       chips: ["Berlin", "Zbąszyń", "Tarnów", "Vilnius", "Tel Aviv"]
+    },
+    photo: {
+      kicker: "Familienfoto",
+      title: "Ein Porträt im Familienarchiv",
+      text: "Die Erwachsenen sind von links nach rechts als Paula, Shlomo, Mathes, Esther, Rosa und Isaac identifiziert. Die beiden Kinder unten sind Mina und Sascha; welches Kind welches ist, bleibt unbestätigt. Diese Identifizierung stammt aus der Familie.",
+      alt: "Familienfoto: Paula, Shlomo, Mathes, Esther, Rosa und Isaac von links nach rechts; Mina und Sascha unten, Reihenfolge unklar",
+      caption: "Familienangabe · Erwachsene von links nach rechts: Paula, Shlomo, Mathes, Esther, Rosa, Isaac · Kinder unten: Mina und Sascha, Reihenfolge unklar"
     },
     updates: {
       kicker: "Forschungsupdate · 3. September 2026",
@@ -468,6 +489,8 @@ function render(lang) {
     </section>
 
     <section class="section" aria-labelledby="about-title"><div class="section-heading"><div><p class="kicker">${d.about.kicker}</p><h2 id="about-title">${d.about.title}</h2></div><p>${d.about.text}</p></div><div class="chip-row">${d.about.chips.map((chip) => `<span class="chip">${chip}</span>`).join("")}</div></section>
+
+    <section id="family-photo" class="section family-photo" aria-labelledby="family-photo-title"><div class="section-heading"><div><p class="kicker">${d.photo.kicker}</p><h2 id="family-photo-title">${d.photo.title}</h2></div><p>${d.photo.text}</p></div><figure class="family-photo-figure"><img src="family-photo.jpg" alt="${d.photo.alt}" loading="lazy"><figcaption>${d.photo.caption}</figcaption></figure></section>
 
     <section id="research-update" class="section" aria-labelledby="research-update-title"><div class="section-heading"><div><p class="kicker">${d.updates.kicker}</p><h2 id="research-update-title">${d.updates.title}</h2></div><p>${d.updates.intro}</p></div><div class="findings-grid">${d.updates.cards.map(([kind, title, text, link]) => `<article class="finding-card ${kind === "open" ? "restricted" : ""}"><span class="status ${statusClass[kind]}">${d.updates.labels[kind]}</span><h3>${title}</h3><p>${text}</p><div>${link}</div></article>`).join("")}</div><p class="note finding-note">${d.updates.note}</p></section>
 

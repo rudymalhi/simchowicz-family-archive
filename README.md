@@ -36,6 +36,7 @@ New findings included in the site:
 - Salo’s recollection that Paula returned from work in 1942 to find the family home empty and was told the family had been taken to Auschwitz is retained as a second-hand testimony requiring reconciliation with Paula’s own records and the Yad Vashem Pages of Testimony that record Mathes/Mates, Mina and Sascha as dying in Tarnów in 1943.
 - Newly supplied Yad Vashem Pages of Testimony record Mathes/Mates Simchowicz, Mina Simchowicz, and Sascha Simchowicz as having died in Tarnów in 1943. These are included as direct-source evidence; remaining spelling and identity questions stay visible.
 - The Arolsen Zbąszyń collection and the JDC Zbąszyń refugee-list description are linked as research resources. No person-level JDC match was verified in this pass; the blocked search is not evidence of absence.
+- The family-supplied photograph identifies the adults from left to right as Paula, Shlomo, Mathes, Esther, Rosa, and Isaac. The two children below are identified as Mina and Sascha, but their left-to-right order remains uncertain; this is recorded as a family identification rather than independent archival proof.
 
 The attached JRI-Poland report identifies a promising possible connection to an older Polish civil record. Its detailed index output is not reproduced here because the report prohibits publication without JRI-Poland’s express written permission. The site links to the relevant Nowy Sącz State Archives collection so the original record can be verified and permission can be addressed.
 
