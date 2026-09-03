@@ -36,3 +36,5 @@ New findings included in the site:
 The attached JRI-Poland report identifies a promising possible connection to an older Polish civil record. Its detailed index output is not reproduced here because the report prohibits publication without JRI-Poland’s express written permission. The site links to the relevant Nowy Sącz State Archives collection so the original record can be verified and permission can be addressed.
 
 The possible identification of `Skarsicz` as Skarżysko-Kamienna remains explicitly marked as unconfirmed.
+
+The latest Arolsen additions are also recorded: 12674257 and 12674258 are treated as two records for the same person, Susi; 12674261 is an additional Minni record; and 78813850 (Sala) and 78827309 (Roza) remain unresolved identities. The site does not merge Sala with Salo/Shlomo or Roza with Rosa/Rosa Shoshana.
