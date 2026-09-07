@@ -24,7 +24,8 @@ const external = {
   usHoloTarnow: "https://encyclopedia.ushmm.org/content/en/article/tarnow",
   usHoloSkarzysko: "https://encyclopedia.ushmm.org/content/en/oral-history/abraham-lewent-describes-conditions-in-skarzysko-camp",
   fuBerlin: "https://www.fu-berlin.de/presse/publikationen/tsp/archiv/2008/ts_20080419/ts_200800419_11/index.html",
-  jewishMuseum: "https://www.jmberlin.de/berlin-transit/orte/en/talmudtora.php"
+  jewishMuseum: "https://www.jmberlin.de/berlin-transit/orte/en/talmudtora.php",
+  isaacBook: "isaac-eliezer-family-book.pdf"
 };
 
 const t = {
@@ -56,7 +57,7 @@ const t = {
       caption: "Family-supplied identification · adults left to right: Paula, Shlomo, Mathes, Esther, Rosa, Isaac · children below: Mina and Sascha, order uncertain"
     },
     updates: {
-      kicker: "Research update · 3 September 2026",
+      kicker: "Research update · 7 September 2026",
       title: "The archival picture has sharpened",
       intro: "A fresh review of Arolsen, Yad Vashem, the Berlin address record, the new JRI material, and Israeli family sources clarifies Paula’s identity and reconstructs a probable prewar household. Open questions remain visible.",
       labels: { confirmed: "Confirmed record", likely: "Strong identification", family: "Family testimony", open: "Open question" },
@@ -189,7 +190,7 @@ const t = {
         ["Paula’s camp route", "Verify the unclear camp name in the CV and the exact sequence between Tarnów, Płaszów, Skarżysko, and Częstochowa."]
       ]
     },
-    footer: { eyebrow: "A living archive", note: "Built from family documents, a family spreadsheet, and public archival context. Last updated 3 September 2026.", privacy: "Living people are not profiled here; uncertain claims are labelled.", sources: "View sources" }
+    footer: { eyebrow: "A living archive", note: "Built from family documents, a family spreadsheet, and public archival context. Last updated 7 September 2026.", privacy: "Living people are not profiled here; uncertain claims are labelled.", sources: "View sources" }
   },
   he: {
     title: "ארכיון משפחת שמחוביץ",
@@ -219,7 +220,7 @@ const t = {
       caption: "זיהוי שנמסר על ידי המשפחה · המבוגרים משמאל לימין: פאולה, שלמה, מתֶס, אסתר, רוזה, יצחק · הילדים למטה: מינה וסשה, הסדר אינו ודאי"
     },
     updates: {
-      kicker: "עדכון מחקר · 3 בספטמבר 2026",
+      kicker: "עדכון מחקר · 7 בספטמבר 2026",
       title: "התמונה הארכיונית התחדדה",
       intro: "בדיקה חדשה של ארכיון ארולסן, יד ושם, ספר הכתובות של ברלין, החומרים החדשים של JRI ומקורות משפחתיים בישראל מבהירה את זהותה של פאולה ומשחזרת משק בית משפחתי אפשרי לפני המלחמה. השאלות הפתוחות נשארות מסומנות.",
       labels: { confirmed: "רשומה מאומתת", likely: "זיהוי חזק", family: "עדות משפחתית", open: "שאלה פתוחה" },
@@ -310,7 +311,7 @@ const t = {
     questions: {
       kicker: "המחקר נמשך", title: "מה עדיין חסר", text: "היסטוריה משפחתית טובה משאירה את אי־הוודאות גלויה. אלה השאלות הבאות שסביר ביותר שיהפכו את המתווה לגנאלוגיה מתועדת במלואה.", items: [["מתי ואסתר אחרי 1938", "לאתר אותם בחומרי זבונשין של ארולסן ושל JDC, ואז לעקוב אחר רישומי הגטו והגירושים מטארנוב."], ["גורל האחים והאחיות", "יד ושם מתעד כעת את מותם של מתֶס/מתי, מינה וסשה בטארנוב בשנת 1943. יש לאמת את האחים הנותרים וליישב את גרסאות השמות בין הרשומות."], ["סאלו / סאלה", "להשתמש במסמך יד ושם 4115983, שכותרתו Shlomo Simkhovich, לצד עדויות הגלויות המשפחתיות, ואז להשוות לרשומת ארולסן 78813850. אין אישור שסאלה הוא סאלו/שלמה ולכן אין למזג אותם."], ["רוזה / Roza", "להשוות את רשומת ארולסן 78827309 לרוזה שושנה; אין אישור שמדובר באותה אישה ולכן אין למזג את הרשומות."], ["אסתר / Ester / Erma / Erna", "לפתור את גרסאות האיות של שם האם באמצעות רישום לידה, נישואין, פליטים או מרשם ברלינאי."], ["הקשר לאופן", "לקבוע אם „אופן“ הוא שם נעורים, שם לאחר נישואין או ענף משפחתי קשור."], ["הרשומה האזרחית המקורית", "לקבל אישור לפרסום חומר JRI, ואז לבדוק את כיוון המחקר מול רשומת הלידה המקורית בארכיון נובי סונץ׳."], ["גרנָדירשטראסה 14 או 17", "להשתמש ברשומות ברלינאיות כדי לקבוע אם מספר 14 משקף מעבר מאוחר יותר, כרטיס קשור או טעות; מספר 17 נותר הכתובת המרכזית."], ["התאמה אישית ברשימת JDC", "לחפש ברשימת השמות של JDC את פאולה, מתי וגרסאות האיות; החיפוש שנחסם אינו מוכיח היעדרות."], ["מסלול המחנות של פאולה", "לאמת את שם המחנה הלא ברור בקורות החיים ואת הרצף המדויק בין טארנוב, פלאשוב, סקרז׳יסקו וצ׳נסטוחובה."]]
     },
-    footer: { eyebrow: "ארכיון חי", note: "נבנה ממסמכים משפחתיים, גיליון משפחתי והקשר מארכיונים ציבוריים. עדכון אחרון: 3 בספטמבר 2026.", privacy: "אנשים החיים כיום אינם מתועדים כאן; טענות לא ודאיות מסומנות.", sources: "למקורות" }
+    footer: { eyebrow: "ארכיון חי", note: "נבנה ממסמכים משפחתיים, גיליון משפחתי והקשר מארכיונים ציבוריים. עדכון אחרון: 7 בספטמבר 2026.", privacy: "אנשים החיים כיום אינם מתועדים כאן; טענות לא ודאיות מסומנות.", sources: "למקורות" }
   },
   de: {
     title: "Familienarchiv Simchowicz",
@@ -340,7 +341,7 @@ const t = {
       caption: "Familienangabe · Erwachsene von links nach rechts: Paula, Shlomo, Mathes, Esther, Rosa, Isaac · Kinder unten: Mina und Sascha, Reihenfolge unklar"
     },
     updates: {
-      kicker: "Forschungsupdate · 3. September 2026",
+      kicker: "Forschungsupdate · 7. September 2026",
       title: "Das Archivbild ist jetzt klarer",
       intro: "Eine neue Prüfung des Arolsen Archives, von Yad Vashem, des Berliner Adressbuchs, der neuen JRI-Unterlagen und israelischer Familienquellen klärt Paulas Identität und rekonstruiert einen wahrscheinlichen Haushalt vor dem Krieg. Offene Fragen bleiben sichtbar.",
       labels: { confirmed: "Bestätigte Quelle", likely: "Starke Identifizierung", family: "Familienzeugnis", open: "Offene Frage" },
@@ -387,7 +388,7 @@ const t = {
     questions: {
       kicker: "Die Forschung geht weiter", title: "Was noch gefunden werden muss", text: "Eine gute Familiengeschichte macht Unsicherheiten sichtbar. Diese Fragen können aus dem Entwurf eine vollständig belegte Genealogie machen.", items: [["Mates und Ester nach 1938", "In den Zbąszyń-Unterlagen von Arolsen und JDC suchen und anschließend Ghetto- und Deportationsunterlagen aus Tarnów verfolgen."], ["Die Schicksale der Geschwister", "Isaac Eliezer, Rosa, Salo, Mina und Sascha in Überlebenden-, Opfer-, Ghetto-, Lager- oder Nachkriegsunterlagen bestätigen."], ["Salo / Sala", "Das Yad-Vashem-Dokument 4115983 mit dem Titel Shlomo Simkhovich gemeinsam mit dem Postkartenbeleg „S. Simchowicz“ verwenden und anschließend mit dem Arolsen-Datensatz 78813850 vergleichen. Sala ist nicht als Salo/Shlomo bestätigt und bleibt getrennt."], ["Roza / Rosa", "Den Arolsen-Datensatz 78827309 mit Rosa Shoshana vergleichen. Roza ist nicht als Rosa bestätigt und bleibt eine getrennte, ungeklärte Identität."], ["Ester / Esther / Erma / Erna", "Die Schreibvarianten des Namens der Mutter durch Geburts-, Heirats-, Flüchtlings- oder Berliner Melderegister klären."], ["Die Verbindung zu Ofen", "Feststellen, ob „Ofen“ ein Mädchenname, ein Ehename oder ein verbundener Familienzweig ist."], ["Der ursprüngliche Zivilstandsdatensatz", "Für die Veröffentlichung des JRI-Materials eine Genehmigung einholen und den Forschungshinweis anschließend mit dem ursprünglichen Zivilstandsdatensatz aus Nowy Sącz prüfen."], ["Grenadierstraße 14 oder 17", "Mit Berliner Unterlagen klären, ob Nr. 14 einen späteren Umzug, eine verbundene Karte oder eine Abweichung bezeichnet; Nr. 17 bleibt die zentrale Adresse."], ["Personenabgleich in der JDC-Liste", "Paula, Mates und Schreibvarianten im JDC-Namensindex suchen; die blockierte Suche beweist keine Abwesenheit."], ["Paulas Lagerrute", "Den unklaren Lagernamen im Lebenslauf sowie die genaue Folge Tarnów, Płaszów, Skarżysko und Częstochowa bestätigen."]]
     },
-    footer: { eyebrow: "Ein lebendes Archiv", note: "Erstellt aus Familiendokumenten, einer Familientabelle und öffentlichem Archivkontext. Aktualisiert am 3. September 2026.", privacy: "Lebende Personen werden hier nicht profiliert; unsichere Angaben sind gekennzeichnet.", sources: "Quellen ansehen" }
+    footer: { eyebrow: "Ein lebendes Archiv", note: "Erstellt aus Familiendokumenten, einer Familientabelle und öffentlichem Archivkontext. Aktualisiert am 7. September 2026.", privacy: "Lebende Personen werden hier nicht profiliert; unsichere Angaben sind gekennzeichnet.", sources: "Quellen ansehen" }
   }
 };
 
@@ -455,6 +456,46 @@ const testimonyChronologyQuestion = {
 
 Object.entries(testimonyChronologyQuestion).forEach(([lang, item]) => {
   t[lang].questions.items.splice(3, 0, item);
+});
+
+const isaacBookEvidence = {
+  en: {
+    update: ["family", "A family book fills in Isaac Eliezer’s life", "A book written by Isaac’s daughter, Esther Abraham, reconstructs his life from family interviews, personal papers, and archival material. It identifies him as Isaac Eliezer (Leizer) Simchowicz, born in Berlin in 1920; describes his education at Große Hamburger Straße, Etz Israel, a commercial school, the Baranowicz and Kamenets yeshivot, and the Berlin Rabbinical Seminary; records his move to Riga in November 1938 and arrival in Haifa at the end of August 1939; and follows his postwar work among displaced-persons camps and immigration transports in Europe from 1946 to 1949. It also records his marriage in 1951, three children born in 1953, 1955, and 1967, and his sudden death on 2 December 1982 while arranging early retirement at Mizrahi Bank. The author cautions that the narrative was assembled from other people’s memories and documents, so it remains a family source requiring further verification.", `<a href="${external.isaacBook}" target="_blank" rel="noreferrer">Read the family book ↗</a>`],
+    source: ["family", "Isaac Eliezer family book", "A Hebrew family history written by his daughter, Esther Abraham. It adds Isaac’s 1920 Berlin birth, nickname Leizer, schooling and yeshiva years, escape to Riga and Palestine in 1938–39, postwar work with displaced-persons and immigration transports, marriage and children, and death on 2 December 1982. The author explicitly notes that the biography was reconstructed from relatives and documents rather than from Isaac’s own memoir.", `<a href="${external.isaacBook}" target="_blank" rel="noreferrer">Open the Hebrew book ↗</a>`],
+    ledger: ["אבני דרך – יצחק אליעזר שמחוביץ / Isaac Eliezer family book", "Family source", "Daughter Esther Abraham’s Hebrew biography: Isaac’s Berlin childhood, religious education, Riga and Palestine route, 1946–49 displaced-persons work, Israeli family life, and death in 1982; dates and interpretations remain source-labeled."],
+    question: ["Isaac’s documentary trail", "The family book supplies a detailed narrative, but the underlying certificates, school records, yeshiva records, immigration file, UNRRA/Jewish Agency personnel files, and Mizrahi Bank employment records should still be located to verify the chronology."],
+    familyMeta: "1920 · Berlin · died 2 December 1982 · married 1951; three children (family book)",
+    familyNote: "The family book adds Isaac’s nickname Leizer, his Berlin and yeshiva education, Riga–Palestine escape, postwar work with displaced-persons and immigration transports, marriage in 1951, three children, and death in 1982. It is a family reconstruction, not an independent civil-register proof.",
+    leadAddition: " The family book independently confirms No. 17 as the remembered family home; a 29 March 1938 Rabbinical Seminary certificate gives Isaac’s address as No. 14, so that second address remains a document-level discrepancy rather than a replacement."
+  },
+  he: {
+    update: ["family", "ספר משפחתי משלים את סיפור חייו של יצחק אליעזר", "ספר שכתבה בתו של יצחק, אסתר אברהם, משחזר את חייו מתוך ראיונות משפחתיים, מסמכים אישיים וחומר ארכיוני. הספר מזהה אותו כיצחק אליעזר (לייזר) שמחוביץ, יליד ברלין 1920; מתאר את לימודיו בגרוסה המבורגר שטראסה, בעדת ישראל, בבית ספר מסחרי, בישיבות ברנוביץ׳ וקמניץ׳ ובבית המדרש לרבנים בברלין; מתעד את נסיעתו לריגה בנובמבר 1938 ואת הגעתו לחיפה בסוף אוגוסט 1939; ומתאר את עבודתו לאחר המלחמה במחנות עקורים ובארגון הובלות עלייה באירופה בשנים 1946–1949. הספר מוסיף כי נישא ב־1951, נולדו לו שלושה ילדים בשנים 1953, 1955 ו־1967, והוא נפטר בפתאומיות ב־2 בדצמבר 1982 בעת שסידר פרישה מוקדמת בבנק המזרחי. המחברת מזהירה שהסיפור נאסף מזיכרונות וממסמכים של אחרים, ולכן זהו מקור משפחתי שדורש אימות נוסף.", `<a href="${external.isaacBook}" target="_blank" rel="noreferrer">לקריאת הספר המשפחתי ↗</a>`],
+    source: ["family", "הספר המשפחתי על יצחק אליעזר", "היסטוריה משפחתית בעברית שכתבה בתו, אסתר אברהם. הספר מוסיף את לידתו של יצחק בברלין ב־1920, הכינוי לייזר, לימודיו, הבריחה לריגה ולארץ ישראל בשנים 1938–1939, עבודתו במחנות העקורים ובהעפלה בשנים 1946–1949, חיי המשפחה בישראל ומותו ב־2 בדצמבר 1982. המחברת מציינת במפורש שהביוגרפיה נבנתה מזיכרונות וממסמכים של אחרים ולא מאוטוביוגרפיה של יצחק.", `<a href="${external.isaacBook}" target="_blank" rel="noreferrer">פתיחת הספר בעברית ↗</a>`],
+    ledger: ["אבני דרך – יצחק אליעזר שמחוביץ", "מקור משפחתי", "ביוגרפיה עברית מאת הבת אסתר אברהם: ילדות בברלין, לימודי קודש, מסלול ריגה–ארץ ישראל, פעילות במחנות עקורים בשנים 1946–1949, חיי משפחה ומותו ב־1982; התאריכים והפרשנות מסומנים כמקור משפחתי."],
+    question: ["התיעוד הארכיוני של יצחק", "הספר המשפחתי מספק סיפור חיים מפורט, אך עדיין יש לאתר תעודות, רישומי בתי ספר וישיבות, תיק עלייה, תיקי אונר״א/הסוכנות היהודית ורישומי העבודה בבנק המזרחי כדי לאמת את הרצף."],
+    familyMeta: "1920 · ברלין · נפטר ב־2 בדצמבר 1982 · נישא ב־1951; שלושה ילדים (הספר המשפחתי)",
+    familyNote: "הספר המשפחתי מוסיף את הכינוי לייזר, את לימודיו בברלין ובישיבות, את מסלול הבריחה לריגה ולארץ ישראל, את עבודתו במחנות עקורים ובהובלות עלייה, את נישואיו ב־1951, שלושת ילדיו ומותו ב־1982. זהו שחזור משפחתי, ולא הוכחה עצמאית מרישום אזרחי.",
+    leadAddition: " הספר המשפחתי מאשר אף הוא את זיכרון הבית במספר 17; תעודה מבית המדרש לרבנים מ־29 במרץ 1938 מציינת את כתובתו של יצחק במספר 14, ולכן הכתובת השנייה נשארת פער בין מסמכים ולא תחליף למספר 17."
+  },
+  de: {
+    update: ["family", "Ein Familienbuch ergänzt Isaac Eliezers Lebensweg", "Ein von Isaacs Tochter Esther Abraham verfasstes Buch rekonstruiert sein Leben aus Familieninterviews, persönlichen Papieren und Archivmaterial. Es identifiziert ihn als Isaac Eliezer (Leizer) Simchowicz, 1920 in Berlin geboren; beschreibt seine Ausbildung an der Großen Hamburger Straße, in der orthodoxen Etz-Israel-Schule, an einer Handelsschule, in den Jeschiwot Baranowicz und Kamenets sowie am Berliner Rabbinerseminar; dokumentiert seine Übersiedlung nach Riga im November 1938 und seine Ankunft in Haifa Ende August 1939; und verfolgt seine Nachkriegsarbeit in DP-Lagern und bei der Organisation von Einwanderungstransporten in Europa von 1946 bis 1949. Hinzu kommen seine Heirat 1951, drei Kinder aus den Jahren 1953, 1955 und 1967 sowie sein plötzlicher Tod am 2. Dezember 1982, als er bei der Mizrahi Bank den Vorruhestand regeln wollte. Die Autorin weist darauf hin, dass die Darstellung aus Erinnerungen und Dokumenten anderer rekonstruiert wurde; sie bleibt daher eine Familienquelle, die weiter überprüft werden muss.", `<a href="${external.isaacBook}" target="_blank" rel="noreferrer">Das Familienbuch lesen ↗</a>`],
+    source: ["family", "Familienbuch über Isaac Eliezer", "Eine hebräische Familiengeschichte seiner Tochter Esther Abraham. Sie ergänzt Isaacs Geburt 1920 in Berlin, den Rufnamen Leizer, Schul- und Jeschiwa-Jahre, die Flucht nach Riga und Palästina 1938–39, die Arbeit mit Displaced Persons und Einwanderungstransporten 1946–49, sein Familienleben in Israel und seinen Tod am 2. Dezember 1982. Die Autorin erklärt ausdrücklich, dass die Biografie aus Erinnerungen und Dokumenten anderer und nicht aus Isaacs eigener Autobiografie entstand.", `<a href="${external.isaacBook}" target="_blank" rel="noreferrer">Das hebräische Buch öffnen ↗</a>`],
+    ledger: ["אבני דרך – יצחק אליעזר שמחוביץ / Isaac Eliezer family book", "Familienquelle", "Hebräische Biografie von Tochter Esther Abraham: Berliner Kindheit, religiöse Ausbildung, Weg über Riga nach Palästina, Arbeit mit Displaced Persons 1946–49, Familienleben in Israel und Tod 1982; Datierung und Deutung bleiben als Familienquelle gekennzeichnet."],
+    question: ["Isaacs dokumentarische Spur", "Das Familienbuch liefert eine ausführliche Erzählung. Für die Überprüfung sollten jedoch noch Geburts-, Schul-, Jeschiwa- und Einwanderungsunterlagen, UNRRA-/Jewish-Agency-Akten sowie Beschäftigungsunterlagen der Mizrahi Bank gefunden werden."],
+    familyMeta: "1920 · Berlin · gestorben am 2. Dezember 1982 · verheiratet 1951; drei Kinder (Familienbuch)",
+    familyNote: "Das Familienbuch ergänzt Isaacs Rufnamen Leizer, seine Berliner und jeschiwische Ausbildung, den Weg über Riga nach Palästina, die Nachkriegsarbeit mit Displaced Persons und Einwanderungstransporten, die Heirat 1951, drei Kinder und seinen Tod 1982. Es ist eine familiäre Rekonstruktion, kein unabhängiger Zivilregisterbeleg.",
+    leadAddition: " Das Familienbuch bestätigt ebenfalls die überlieferte Wohnung Nr. 17; eine Bescheinigung des Berliner Rabbinerseminars vom 29. März 1938 nennt für Isaac jedoch Nr. 14. Diese zweite Adresse bleibt daher eine Dokumentabweichung und ersetzt Nr. 17 nicht."
+  }
+};
+
+Object.entries(isaacBookEvidence).forEach(([lang, evidence]) => {
+  t[lang].updates.cards.splice(5, 0, evidence.update);
+  t[lang].sources.cards.splice(7, 0, evidence.source);
+  t[lang].sources.ledger.splice(7, 0, evidence.ledger);
+  t[lang].questions.items.splice(1, 0, evidence.question);
+  t[lang].family.childData[1][1] = evidence.familyMeta;
+  t[lang].family.note = evidence.familyNote;
+  t[lang].family.leadText += evidence.leadAddition;
 });
 
 const statusClass = { direct: "direct", family: "family", context: "family", lead: "lead", confirmed: "direct", likely: "family", open: "lead" };

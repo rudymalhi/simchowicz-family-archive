@@ -7,6 +7,7 @@ A self-contained multilingual static website in English, Hebrew, and German.
 - `index.html` — page shell and metadata
 - `styles.css` — responsive visual design
 - `script.js` — translations, content, language switcher, and source filters
+- `isaac-eliezer-family-book.pdf` — Hebrew family history of Isaac Eliezer Simchowicz, written by his daughter Esther Abraham
 
 ## Publish
 
@@ -37,6 +38,8 @@ New findings included in the site:
 - Newly supplied Yad Vashem Pages of Testimony record Mathes/Mates Simchowicz, Mina Simchowicz, and Sascha Simchowicz as having died in Tarnów in 1943. These are included as direct-source evidence; remaining spelling and identity questions stay visible.
 - The Arolsen Zbąszyń collection and the JDC Zbąszyń refugee-list description are linked as research resources. No person-level JDC match was verified in this pass; the blocked search is not evidence of absence.
 - The family-supplied photograph identifies the adults from left to right as Paula, Shlomo, Mathes, Esther, Rosa, and Isaac. The two children below are identified as Mina and Sascha, but their left-to-right order remains uncertain; this is recorded as a family identification rather than independent archival proof.
+- The Hebrew book `isaac-eliezer-family-book.pdf`, written by Isaac’s daughter Esther Abraham, adds a detailed family-source biography: Isaac Eliezer (Leizer) was born in Berlin in 1920; studied in Berlin and at the Baranowicz and Kamenets yeshivot; moved to Riga in November 1938 and reached Haifa at the end of August 1939; worked with displaced persons and immigration transports in Europe from 1946 to 1949; married in 1951; had three children born in 1953, 1955, and 1967; and died suddenly on 2 December 1982 while arranging early retirement at Mizrahi Bank. The author states that the narrative was reconstructed from relatives and documents, so the site labels it as a family source and keeps the underlying documentary trail as an open research task.
+- The book independently confirms the remembered family home as Grenadierstraße 17. It also reproduces a 29 March 1938 Berlin Rabbinical Seminary certificate giving Isaac’s address as Grenadierstraße 14; the site keeps No. 14 as an unresolved document-level discrepancy rather than replacing No. 17.
 
 The attached JRI-Poland report identifies a promising possible connection to an older Polish civil record. Its detailed index output is not reproduced here because the report prohibits publication without JRI-Poland’s express written permission. The site links to the relevant Nowy Sącz State Archives collection so the original record can be verified and permission can be addressed.
 
