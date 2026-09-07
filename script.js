@@ -498,6 +498,161 @@ Object.entries(isaacBookEvidence).forEach(([lang, evidence]) => {
   t[lang].family.leadText += evidence.leadAddition;
 });
 
+const familyPerspective = {
+  en: {
+    nav: { family: "The family", photo: "Family photograph", people: "People", updates: "Research findings", timeline: "Paula’s records", places: "Family journey", sources: "Sources" },
+    hero: {
+      eyebrow: "A family memory, still being researched",
+      title: "One family, many paths through a broken century",
+      lede: "The Simchowicz family story begins with Jewish life in Poland and Berlin, follows six children through education, persecution, flight, forced labor, survival and loss, and continues with the rebuilding of family life in Palestine and Israel. Paula, Isaac and Salo leave especially detailed records, but they are threads in a larger family history.",
+      primary: "Meet the family",
+      secondary: "Follow the journey",
+      cardKicker: "The family at a glance",
+      cardTitle: "Six children, one Berlin household, many destinies",
+      stats: [["6", "children in the household"], ["17", "Grenadierstraße address"], ["3", "siblings documented after the war"]]
+    },
+    about: {
+      kicker: "How to read this archive",
+      title: "A family history, not a single biography",
+      text: "This archive follows the family as a network of people, places and surviving traces. The family tree establishes the household; the people cards show what is known about each member; the journey connects Poland, Berlin, Tarnów, Riga and Israel; and the individual records then deepen Paula’s, Isaac’s and Salo’s stories. Direct records, family testimony and unresolved leads remain visibly separate.",
+      chips: ["Nowy Sącz", "Dąbrowa", "Berlin", "Tarnów", "Riga", "Israel"]
+    },
+    people: {
+      kicker: "The people",
+      title: "A household of eight, remembered one person at a time",
+      intro: "The six children were born in Berlin. Their parents’ Polish origins, the family home at Grenadierstraße 17, and the different paths taken after 1938 form the central frame of the archive.",
+      labels: { direct: "Direct records", family: "Family source", open: "Open identification" },
+      cards: [
+        ["family", "Mates / Matityahu Simchowicz", "c. 1889 · Nowy Sącz · father", "A religious father and Kaufmann who ran a milk-and-eggs shop in Berlin. Family and wartime sources place him in Tarnów; a Yad Vashem Page of Testimony records his death there in 1943.", "Family book · Salo testimony · Yad Vashem"],
+        ["open", "Ester / Esther / Erna Simchowicz", "c. 1896 · Poland · mother", "Née Offen. Salo places her family in Dąbrowa near Oświęcim, while Arolsen uses Erna/Ester. The exact birthplace and wartime fate still need reconciliation.", "Salo testimony · Arolsen · family sources"],
+        ["direct", "Paula Pnina Simchowicz / Rapoport", "22 June 1919 · Berlin · survivor", "The eldest child’s CV, sworn testimony and Israeli memorial record document Berlin, Zbąszyń, Tarnów, forced labor, survival and postwar life in Israel. She died in Tel Aviv in 1994.", "CV · 1955 testimony · LAAD memorial"],
+        ["family", "Isaac Eliezer “Leizer” Simchowicz", "1920 · Berlin · survivor", "He studied in Berlin and in Lithuanian yeshivot, escaped through Riga to Palestine in 1939, worked with displaced persons and immigration transports after the war, and died in 1982. His daughter’s book gives the fullest account.", "Isaac Eliezer family book"],
+        ["open", "Rosa Shoshana Simchowicz", "1 January 1922 · Berlin · sibling", "Arolsen supports her place in the Berlin household, with father Mates and mother Erna/Ester née Offen. Her identification with the separate Arolsen record named Roza remains unconfirmed.", "Arolsen · family tree · open question"],
+        ["direct", "Salo / Shlomo Simchowicz", "24 May 1923 · Berlin · survivor", "His 2001 testimony describes the family home, the 1938 expulsion to Zbąszyń, the escape route through Eastern and Western Europe, and arrival in Palestine on 1 April 1940.", "Yad Vashem testimony 4115983"],
+        ["direct", "Mina / Minni Simchowicz", "1924/1925 · Berlin · wartime fate", "Arolsen gives 7 September 1924; the family book gives 1925. Yad Vashem records Mina as having died in Tarnów in 1943. The date discrepancy remains visible.", "Arolsen · family book · Yad Vashem"],
+        ["direct", "Sascha / Susi Simchowicz", "18 December 1929 · Berlin · wartime fate", "Arolsen records 12674257 and 12674258 are treated as two records for the same Susi. Yad Vashem records Sascha as having died in Tarnów in 1943.", "Arolsen · Yad Vashem"]
+      ]
+    },
+    places: {
+      kicker: "The family journey",
+      title: "From Polish roots to Berlin, dispersal and rebuilding",
+      intro: "The places are shared stages in the family story. Some routes belong to one person; together they show how one household was scattered and how surviving branches rebuilt their lives.",
+      cards: [
+        ["01", "Nowy Sącz & Dąbrowa", "The family book places Mates’ origins in Nowy Sącz and Esther’s family near Dąbrowa by Oświęcim. Exact civil records remain to be found."],
+        ["02", "Berlin", "The six children were born in Berlin. The family lived first around Joachimstraße and later at Grenadierstraße 17, where religion, work, schooling and neighborhood life shaped the household."],
+        ["03", "Zbąszyń & Tarnów", "The 1938 expulsions and the family’s move into occupied Poland began the wartime separation. Salo escaped through Tarnów; Paula was forced to work there; Mates, Mina and Sascha are recorded as dying there in 1943."],
+        ["04", "Riga & Palestine", "Isaac left for Riga in November 1938 and reached Haifa in 1939. Salo followed a different escape route and arrived in Palestine on 1 April 1940."],
+        ["05", "DP camps & Israel", "Isaac worked among displaced persons and immigration transports in Europe from 1946 to 1949. Paula, Isaac and Salo represent three documented survivor branches that rebuilt family life in Israel."]
+      ],
+      route: "Polish roots → Berlin → Zbąszyń / Tarnów → Riga / Palestine → Israel"
+    }
+  },
+  he: {
+    nav: { family: "המשפחה", photo: "תצלום המשפחה", people: "בני המשפחה", updates: "ממצאי המחקר", timeline: "הרשומות של פאולה", places: "מסע המשפחה", sources: "מקורות" },
+    hero: {
+      eyebrow: "זיכרון משפחתי שעדיין נחקר",
+      title: "משפחה אחת, מסלולים רבים במאה שנשברה",
+      lede: "סיפור משפחת שמחוביץ מתחיל בחיים יהודיים בפולין ובברלין, עובר דרך ששת הילדים — לימודים, רדיפות, בריחה, עבודת כפייה, הישרדות ואובדן — וממשיך בבניית חיי משפחה בארץ ישראל ובישראל. פאולה, יצחק ושלמה הותירו תיעוד מפורט במיוחד, אך הם חוטים בתוך היסטוריה משפחתית רחבה יותר.",
+      primary: "להכיר את המשפחה",
+      secondary: "לעקוב אחר המסע",
+      cardKicker: "המשפחה במבט אחד",
+      cardTitle: "שישה ילדים, בית אחד בברלין, גורלות רבים",
+      stats: [["6", "ילדים בבית המשפחה"], ["17", "כתובת בגרנָדירשטראסה"], ["3", "אחים מתועדים אחרי המלחמה"]]
+    },
+    about: {
+      kicker: "כיצד לקרוא את הארכיון",
+      title: "היסטוריה משפחתית, לא ביוגרפיה יחידה",
+      text: "הארכיון עוקב אחר המשפחה כרשת של אנשים, מקומות ועקבות ששרדו. אילן המשפחה מציג את משק הבית; כרטיסי בני המשפחה מראים מה ידוע על כל אחד; המסע מחבר בין פולין, ברלין, טארנוב, ריגה וישראל; והרשומות האישיות מעמיקות אחר כך את סיפוריהם של פאולה, יצחק ושלמה. מסמכים ישירים, עדות משפחתית וכיווני מחקר בלתי פתורים נשמרים בנפרד.",
+      chips: ["צאנז / נובי סונץ׳", "דומברובה", "ברלין", "טארנוב", "ריגה", "ישראל"]
+    },
+    people: {
+      kicker: "בני המשפחה",
+      title: "בית של שמונה, שנזכר אדם אחר אדם",
+      intro: "ששת הילדים נולדו בברלין. שורשי ההורים בפולין, הבית בגרנָדירשטראסה 17 והמסלולים השונים לאחר 1938 הם המסגרת המרכזית של הארכיון.",
+      labels: { direct: "מסמכים ישירים", family: "מקור משפחתי", open: "זיהוי פתוח" },
+      cards: [
+        ["family", "מתתיהו / מתֶס שמחוביץ", "בערך 1889 · צאנז / נובי סונץ׳ · האב", "אב דתי וסוחר שניהל בברלין חנות לחלב וביצים. מקורות משפחתיים ומקורות מתקופת המלחמה מציבים אותו בטארנוב; דף עדות של יד ושם מתעד את מותו שם בשנת 1943.", "הספר המשפחתי · עדות שלמה · יד ושם"],
+        ["open", "אסתר / אסתר / ארנה שמחוביץ", "בערך 1896 · פולין · האם", "לבית אופן. שלמה ממקם את משפחתה בדומברובה ליד אושוויץ, ואילו ארולסן משתמש בגרסה Erna/Ester. מקום הלידה המדויק וגורלה במלחמה עדיין דורשים יישוב.", "עדות שלמה · ארולסן · מקורות משפחתיים"],
+        ["direct", "פאולה פנינה שמחוביץ / רפפורט", "22 ביוני 1919 · ברלין · שורדת", "קורות החיים, העדות בשבועה והרישום הישראלי מתעדים את ברלין, זבונשין, טארנוב, עבודת הכפייה, ההישרדות והחיים בישראל. היא נהרגה בתל אביב בשנת 1994.", "קורות חיים · עדות 1955 · דף הנצחה"],
+        ["family", "יצחק אליעזר “לייזר” שמחוביץ", "1920 · ברלין · שורד", "למד בברלין ובישיבות ליטאיות, נמלט דרך ריגה לארץ ישראל ב־1939, עבד עם עקורים ועם הובלות עלייה לאחר המלחמה ונפטר ב־1982. ספר בתו מציג את הסיפור המלא ביותר.", "הספר המשפחתי על יצחק אליעזר"],
+        ["open", "רוזה שושנה שמחוביץ", "1 בינואר 1922 · ברלין · אחות", "ארולסן תומך בשייכותה לבית בברלין, עם אב בשם מתֶס ואם ארנה/אסתר לבית אופן. הזיהוי שלה עם הרשומה הנפרדת בשם Roza עדיין אינו מאומת.", "ארולסן · אילן המשפחה · שאלה פתוחה"],
+        ["direct", "סאלו / שלמה שמחוביץ", "24 במאי 1923 · ברלין · שורד", "העדות שלו משנת 2001 מתארת את הבית, את הגירוש לזבונשין ב־1938, את מסלול הבריחה דרך מזרח ומערב אירופה ואת הגעתו לארץ ישראל ב־1 באפריל 1940.", "עדות יד ושם 4115983"],
+        ["direct", "מינה / מיני שמחוביץ", "1924/1925 · ברלין · גורל במלחמה", "ארולסן מציין 7 בספטמבר 1924; הספר המשפחתי מציין 1925. יד ושם מתעד את מינה כמי שמתה בטארנוב בשנת 1943. הפער בתאריך נשמר.", "ארולסן · הספר המשפחתי · יד ושם"],
+        ["direct", "סשה / סוזי שמחוביץ", "18 בדצמבר 1929 · ברלין · גורל במלחמה", "רשומות ארולסן 12674257 ו־12674258 נחשבות לשתי רשומות של אותה סוזי. יד ושם מתעד את סשה כמי שמתה בטארנוב בשנת 1943.", "ארולסן · יד ושם"]
+      ]
+    },
+    places: {
+      kicker: "מסע המשפחה",
+      title: "משורשים פולניים לברלין, פיזור ובנייה מחדש",
+      intro: "המקומות הם תחנות משותפות בסיפור המשפחה. חלק מן המסלולים שייכים לאדם אחד; יחד הם מראים כיצד בית אחד התפזר וכיצד הענפים ששרדו בנו את חייהם מחדש.",
+      cards: [
+        ["01", "צאנז / נובי סונץ׳ ודומברובה", "הספר המשפחתי מציב את שורשי מתתיהו בצאנז / נובי סונץ׳ ואת משפחת אסתר בדומברובה ליד אושוויץ. עדיין חסרים רישומי יסוד אזרחיים."],
+        ["02", "ברלין", "ששת הילדים נולדו בברלין. המשפחה גרה תחילה באזור יואכים־שטראסה ואחר כך בגרנָדירשטראסה 17, שם עיצבו הדת, העבודה, הלימודים וחיי השכונה את הבית."],
+        ["03", "זבונשין וטארנוב", "הגירושים ב־1938 והמעבר לפולין הכבושה פתחו את תקופת הפירוד. סאלו ברח דרך טארנוב; פאולה עבדה שם בכפייה; ומתתיהו, מינה וסשה מתועדים כמי שמתו שם ב־1943."],
+        ["04", "ריגה וארץ ישראל", "יצחק נסע לריגה בנובמבר 1938 והגיע לחיפה ב־1939. סאלו עבר מסלול בריחה אחר והגיע לארץ ישראל ב־1 באפריל 1940."],
+        ["05", "מחנות עקורים וישראל", "יצחק עבד עם עקורים ועם הובלות עלייה באירופה בשנים 1946–1949. פאולה, יצחק וסאלו מייצגים שלושה ענפים מתועדים שבנו מחדש חיי משפחה בישראל."]
+      ],
+      route: "שורשים בפולין → ברלין → זבונשין / טארנוב → ריגה / ארץ ישראל → ישראל"
+    }
+  },
+  de: {
+    nav: { family: "Die Familie", photo: "Familienfoto", people: "Personen", updates: "Forschungsergebnisse", timeline: "Paulas Unterlagen", places: "Familienweg", sources: "Quellen" },
+    hero: {
+      eyebrow: "Eine Familienerinnerung, die weiter erforscht wird",
+      title: "Eine Familie, viele Wege durch ein zerbrochenes Jahrhundert",
+      lede: "Die Geschichte der Familie Simchowicz beginnt mit jüdischem Leben in Polen und Berlin, verfolgt sechs Kinder durch Ausbildung, Verfolgung, Flucht, Zwangsarbeit, Überleben und Verlust und setzt sich mit dem Wiederaufbau des Familienlebens in Palästina und Israel fort. Paula, Isaac und Salo hinterließen besonders ausführliche Spuren, sind aber Fäden einer größeren Familiengeschichte.",
+      primary: "Die Familie kennenlernen",
+      secondary: "Den Weg verfolgen",
+      cardKicker: "Die Familie im Überblick",
+      cardTitle: "Sechs Kinder, ein Berliner Haushalt, viele Schicksale",
+      stats: [["6", "Kinder im Haushalt"], ["17", "Grenadierstraße"], ["3", "nach dem Krieg dokumentierte Geschwister"]]
+    },
+    about: {
+      kicker: "Wie dieses Archiv zu lesen ist",
+      title: "Eine Familiengeschichte, keine Einzelbiografie",
+      text: "Dieses Archiv verfolgt die Familie als Netz aus Menschen, Orten und erhaltenen Spuren. Der Stammbaum zeigt den Haushalt; die Personenkarten machen sichtbar, was über jedes Mitglied bekannt ist; der Familienweg verbindet Polen, Berlin, Tarnów, Riga und Israel; und die Einzelunterlagen vertiefen anschließend die Geschichten von Paula, Isaac und Salo. Direkte Quellen, Familienzeugnisse und offene Forschungshinweise bleiben klar getrennt.",
+      chips: ["Nowy Sącz", "Dąbrowa", "Berlin", "Tarnów", "Riga", "Israel"]
+    },
+    people: {
+      kicker: "Die Menschen",
+      title: "Ein Haushalt von acht, erinnert Person für Person",
+      intro: "Die sechs Kinder wurden in Berlin geboren. Die polnischen Wurzeln der Eltern, das Haus in der Grenadierstraße 17 und die verschiedenen Wege nach 1938 bilden den Mittelpunkt des Archivs.",
+      labels: { direct: "Direkte Quellen", family: "Familienquelle", open: "Offene Identifizierung" },
+      cards: [
+        ["family", "Mates / Matityahu Simchowicz", "ca. 1889 · Nowy Sącz · Vater", "Ein religiöser Vater und Kaufmann, der in Berlin ein Milch- und Eiergeschäft führte. Familien- und Kriegsquellen verorten ihn in Tarnów; ein Yad-Vashem-Page-of-Testimony verzeichnet dort seinen Tod 1943.", "Familienbuch · Salos Zeugnis · Yad Vashem"],
+        ["open", "Ester / Esther / Erna Simchowicz", "ca. 1896 · Polen · Mutter", "Geborene Offen. Salo verortet ihre Familie in Dąbrowa bei Oświęcim, während Arolsen Erna/Ester verwendet. Geburtsort und Kriegsschicksal müssen noch abgeglichen werden.", "Salos Zeugnis · Arolsen · Familienquellen"],
+        ["direct", "Paula Pnina Simchowicz / Rapoport", "22. Juni 1919 · Berlin · Überlebende", "Lebenslauf, eidesstattliche Erklärung und israelischer Gedenkeintrag dokumentieren Berlin, Zbąszyń, Tarnów, Zwangsarbeit, Überleben und das Leben in Israel. Sie starb 1994 in Tel Aviv.", "Lebenslauf · Zeugnis 1955 · LAAD-Gedenkseite"],
+        ["family", "Isaac Eliezer „Leizer“ Simchowicz", "1920 · Berlin · Überlebender", "Er studierte in Berlin und litauischen Jeschiwot, floh 1939 über Riga nach Palästina, arbeitete nach dem Krieg mit Displaced Persons und Einwanderungstransporten und starb 1982. Das Buch seiner Tochter bietet die ausführlichste Darstellung.", "Isaac-Eliezer-Familienbuch"],
+        ["open", "Rosa Shoshana Simchowicz", "1. Januar 1922 · Berlin · Schwester", "Arolsen stützt ihre Zugehörigkeit zum Berliner Haushalt mit Vater Mates und Mutter Erna/Ester geborene Offen. Die Gleichsetzung mit dem separaten Arolsen-Eintrag Roza ist nicht bestätigt.", "Arolsen · Stammbaum · offene Frage"],
+        ["direct", "Salo / Shlomo Simchowicz", "24. Mai 1923 · Berlin · Überlebender", "Sein Zeugnis von 2001 beschreibt das Familienhaus, die Ausweisung nach Zbąszyń 1938, die Flucht durch Ost- und Westeuropa und die Ankunft in Palästina am 1. April 1940.", "Yad-Vashem-Zeugnis 4115983"],
+        ["direct", "Mina / Minni Simchowicz", "1924/1925 · Berlin · Kriegsschicksal", "Arolsen nennt den 7. September 1924; das Familienbuch nennt 1925. Yad Vashem verzeichnet Mina als 1943 in Tarnów gestorben. Die Abweichung bleibt sichtbar.", "Arolsen · Familienbuch · Yad Vashem"],
+        ["direct", "Sascha / Susi Simchowicz", "18. Dezember 1929 · Berlin · Kriegsschicksal", "Die Arolsen-Datensätze 12674257 und 12674258 werden als zwei Einträge derselben Susi behandelt. Yad Vashem verzeichnet Sascha als 1943 in Tarnów gestorben.", "Arolsen · Yad Vashem"]
+      ]
+    },
+    places: {
+      kicker: "Der Familienweg",
+      title: "Von polnischen Wurzeln über Berlin zu Zerstreuung und Neubeginn",
+      intro: "Die Orte sind gemeinsame Bühnen der Familiengeschichte. Manche Wege gehören einer einzelnen Person; zusammen zeigen sie, wie ein Haushalt zerstreut wurde und wie die überlebenden Zweige ihr Leben neu aufbauten.",
+      cards: [
+        ["01", "Nowy Sącz & Dąbrowa", "Das Familienbuch verortet Mates’ Herkunft in Nowy Sącz und Esthers Familie bei Dąbrowa nahe Oświęcim. Die genauen Zivilregister fehlen noch."],
+        ["02", "Berlin", "Die sechs Kinder wurden in Berlin geboren. Die Familie lebte zunächst im Raum Joachimstraße und später in der Grenadierstraße 17, wo Religion, Arbeit, Schule und Nachbarschaft den Haushalt prägten."],
+        ["03", "Zbąszyń & Tarnów", "Die Ausweisungen von 1938 und der Weg ins besetzte Polen leiteten die Trennung ein. Salo floh über Tarnów; Paula musste dort arbeiten; Mates, Mina und Sascha sind dort für 1943 als verstorben belegt."],
+        ["04", "Riga & Palästina", "Isaac reiste im November 1938 nach Riga und kam 1939 nach Haifa. Salo nahm einen anderen Fluchtweg und erreichte Palästina am 1. April 1940."],
+        ["05", "DP-Lager & Israel", "Isaac arbeitete 1946–49 mit Displaced Persons und Einwanderungstransporten in Europa. Paula, Isaac und Salo stehen für drei dokumentierte Überlebenszweige, die in Israel Familienleben neu aufbauten."]
+      ],
+      route: "Polnische Wurzeln → Berlin → Zbąszyń / Tarnów → Riga / Palästina → Israel"
+    }
+  }
+};
+
+Object.entries(familyPerspective).forEach(([lang, perspective]) => {
+  t[lang].nav = perspective.nav;
+  t[lang].hero = perspective.hero;
+  t[lang].about = perspective.about;
+  t[lang].people = perspective.people;
+  t[lang].places = perspective.places;
+});
+
 const statusClass = { direct: "direct", family: "family", context: "family", lead: "lead", confirmed: "direct", likely: "family", open: "lead" };
 
 function render(lang) {
@@ -524,14 +679,16 @@ function render(lang) {
         <p class="eyebrow">${d.hero.eyebrow}</p>
         <h1>${d.hero.title}</h1>
         <p class="hero-lede">${d.hero.lede}</p>
-        <div class="hero-actions"><a class="button primary" href="#family">${d.hero.primary}</a><a class="button secondary" href="#sources">${d.hero.secondary}</a></div>
+        <div class="hero-actions"><a class="button primary" href="#family">${d.hero.primary}</a><a class="button secondary" href="#places">${d.hero.secondary}</a></div>
       </div>
       <aside class="hero-card"><div class="hero-card-content"><span class="hero-card-kicker">${d.hero.cardKicker}</span><h2>${d.hero.cardTitle}</h2><div class="stat-row">${d.hero.stats.map(([big, small]) => `<div class="stat"><strong>${big}</strong><span>${small}</span></div>`).join("")}</div></div></aside>
     </section>
 
-    <section class="section" aria-labelledby="about-title"><div class="section-heading"><div><p class="kicker">${d.about.kicker}</p><h2 id="about-title">${d.about.title}</h2></div><p>${d.about.text}</p></div><div class="chip-row">${d.about.chips.map((chip) => `<span class="chip">${chip}</span>`).join("")}</div></section>
+    <section id="about" class="section" aria-labelledby="about-title"><div class="section-heading"><div><p class="kicker">${d.about.kicker}</p><h2 id="about-title">${d.about.title}</h2></div><p>${d.about.text}</p></div><div class="chip-row">${d.about.chips.map((chip) => `<span class="chip">${chip}</span>`).join("")}</div></section>
 
     <section id="family-photo" class="section family-photo" aria-labelledby="family-photo-title"><div class="section-heading"><div><p class="kicker">${d.photo.kicker}</p><h2 id="family-photo-title">${d.photo.title}</h2></div><p>${d.photo.text}</p></div><figure class="family-photo-figure"><img src="family-photo.jpg" alt="${d.photo.alt}" loading="lazy"><figcaption>${d.photo.caption}</figcaption></figure></section>
+
+    <section id="people" class="section" aria-labelledby="people-title"><div class="section-heading"><div><p class="kicker">${d.people.kicker}</p><h2 id="people-title">${d.people.title}</h2></div><p>${d.people.intro}</p></div><div class="people-grid">${d.people.cards.map(([kind, name, meta, text, source]) => `<article class="person-card"><span class="status ${statusClass[kind]}">${d.people.labels[kind]}</span><h3>${name}</h3><p class="person-meta">${meta}</p><p>${text}</p><p class="note">${source}</p></article>`).join("")}</div></section>
 
     <section id="research-update" class="section" aria-labelledby="research-update-title"><div class="section-heading"><div><p class="kicker">${d.updates.kicker}</p><h2 id="research-update-title">${d.updates.title}</h2></div><p>${d.updates.intro}</p></div><div class="findings-grid">${d.updates.cards.map(([kind, title, text, link]) => `<article class="finding-card ${kind === "open" ? "restricted" : ""}"><span class="status ${statusClass[kind]}">${d.updates.labels[kind]}</span><h3>${title}</h3><p>${text}</p><div>${link}</div></article>`).join("")}</div><p class="note finding-note">${d.updates.note}</p></section>
 
@@ -541,12 +698,16 @@ function render(lang) {
 
     <section id="places" class="section" aria-labelledby="places-title"><div class="section-heading"><div><p class="kicker">${d.places.kicker}</p><h2 id="places-title">${d.places.title}</h2></div><p>${d.places.intro}</p></div><div class="places-grid">${d.places.cards.map(([num, name, text]) => `<article class="place-card"><span class="place-num">${num}</span><h3>${name}</h3><p>${text}</p></article>`).join("")}</div><div class="route-line" aria-label="${d.places.route}"><span></span><i></i><strong>${d.places.route}</strong><i></i><span></span></div></section>
 
-    <section class="section" aria-labelledby="testimony-title"><div class="section-heading"><div><p class="kicker">${d.testimony.kicker}</p><h2 id="testimony-title">${d.testimony.title}</h2></div></div><div class="testimony"><div class="quote-card"><span class="quote-mark" aria-hidden="true">“</span><blockquote>${d.testimony.quote}</blockquote><cite>${d.testimony.cite}</cite></div><div class="testimony-copy"><h3>${d.testimony.heading}</h3><p>${d.testimony.text}</p><div class="fact-list">${d.testimony.facts.map(([label, value]) => `<div class="fact"><strong>${label}</strong>${value}</div>`).join("")}</div></div></div></section>
+    <section id="testimony" class="section" aria-labelledby="testimony-title"><div class="section-heading"><div><p class="kicker">${d.testimony.kicker}</p><h2 id="testimony-title">${d.testimony.title}</h2></div></div><div class="testimony"><div class="quote-card"><span class="quote-mark" aria-hidden="true">“</span><blockquote>${d.testimony.quote}</blockquote><cite>${d.testimony.cite}</cite></div><div class="testimony-copy"><h3>${d.testimony.heading}</h3><p>${d.testimony.text}</p><div class="fact-list">${d.testimony.facts.map(([label, value]) => `<div class="fact"><strong>${label}</strong>${value}</div>`).join("")}</div></div></div></section>
 
     <section id="sources" class="section" aria-labelledby="sources-title"><div class="section-heading"><div><p class="kicker">${d.sources.kicker}</p><h2 id="sources-title">${d.sources.title}</h2></div><p>${d.sources.intro}</p></div><div class="evidence-tabs" role="group" aria-label="${d.sources.title}">${Object.entries(d.sources.filters).map(([key, label], i) => `<button class="filter-btn ${i === 0 ? "active" : ""}" type="button" data-filter="${key}">${label}</button>`).join("")}</div><div class="source-grid">${d.sources.cards.map(([kind, title, text, link]) => `<article class="source-card" data-kind="${kind}"><span class="source-type">${d.sources.filters[kind]}</span><h3>${title}</h3><p>${text}</p>${link.includes("<a") ? link : `<span class="note">${link}</span>`}</article>`).join("")}</div><div class="source-ledger"><div class="ledger-row ledger-head">${d.sources.ledgerHead.map((cell) => `<div>${cell}</div>`).join("")}</div>${d.sources.ledger.map((row) => `<div class="ledger-row">${row.map((cell) => `<div>${cell}</div>`).join("")}</div>`).join("")}</div></section>
 
-    <section class="section" aria-labelledby="questions-title"><div class="questions"><div class="questions-intro"><p class="eyebrow">${d.questions.kicker}</p><h2 id="questions-title">${d.questions.title}</h2><p>${d.questions.text}</p></div><div class="question-list">${d.questions.items.map(([title, text]) => `<article class="question"><strong>${title}</strong><p>${text}</p></article>`).join("")}</div></div></section>
+    <section id="questions" class="section" aria-labelledby="questions-title"><div class="questions"><div class="questions-intro"><p class="eyebrow">${d.questions.kicker}</p><h2 id="questions-title">${d.questions.title}</h2><p>${d.questions.text}</p></div><div class="question-list">${d.questions.items.map(([title, text]) => `<article class="question"><strong>${title}</strong><p>${text}</p></article>`).join("")}</div></div></section>
   `;
+
+  const desiredOrder = ["top", "about", "family", "family-photo", "people", "places", "research-update", "timeline", "testimony", "sources", "questions"];
+  const sections = new Map([...app.querySelectorAll("section[id]")].map((section) => [section.id, section]));
+  desiredOrder.forEach((id) => { const section = sections.get(id); if (section) app.appendChild(section); });
 
   document.querySelectorAll(".filter-btn").forEach((button) => {
     button.addEventListener("click", () => {

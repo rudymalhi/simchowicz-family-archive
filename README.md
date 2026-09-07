@@ -7,11 +7,14 @@ A self-contained multilingual static website in English, Hebrew, and German.
 - `index.html` — page shell and metadata
 - `styles.css` — responsive visual design
 - `script.js` — translations, content, language switcher, and source filters
+- `family-photo.jpg` — family photograph with family-supplied identifications
 - `isaac-eliezer-family-book.pdf` — Hebrew family history of Isaac Eliezer Simchowicz, written by his daughter Esther Abraham
 
 ## Publish
 
-Upload the three files to any static host. No build step or server is required.
+Upload the site files to any static host. No build step or server is required.
+
+The page is organized around the whole household: family origins and home, the people in the family, the shared journey through Berlin and wartime Europe, research findings, and then detailed documentary threads for Paula and Isaac. Individual stories are presented as parts of the wider family history.
 
 Good options include:
 

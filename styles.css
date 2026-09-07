@@ -85,6 +85,13 @@ h1 { max-width: 720px; font-size: clamp(2.9rem, 7vw, 6.5rem); letter-spacing: -.
 .family-photo-figure img { display: block; width: 100%; max-width: 100%; height: auto; max-height: 620px; object-fit: contain; background: #d9d2c4; }
 .family-photo-figure figcaption { max-width: 100%; padding: 12px 4px 2px; color: var(--muted); font-size: .78rem; overflow-wrap: anywhere; }
 
+.people-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 13px; }
+.person-card { min-height: 250px; padding: 21px; border: 1px solid var(--line); border-radius: 16px; background: rgba(255,253,248,.72); display: flex; flex-direction: column; }
+.person-card h3 { font-size: 1.25rem; margin: 13px 0 7px; }
+.person-card p { color: var(--muted); font-size: .81rem; margin: 0 0 11px; }
+.person-card .person-meta { color: var(--teal); font-size: .75rem; font-weight: 800; }
+.person-card .note { margin-top: auto; font-size: .72rem; }
+
 .findings-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 13px; }
 .finding-card { min-height: 205px; padding: 21px; border: 1px solid var(--line); border-radius: 16px; background: rgba(255,253,248,.72); }
 .finding-card h3 { font-size: 1.25rem; margin: 13px 0 9px; }
@@ -201,7 +208,7 @@ h1 { max-width: 720px; font-size: clamp(2.9rem, 7vw, 6.5rem); letter-spacing: -.
   .hero, .family-intro, .testimony, .questions { grid-template-columns: 1fr; }
   .hero { padding-top: 62px; }
   .places-grid { grid-template-columns: repeat(3,1fr); }
-  .findings-grid { grid-template-columns: repeat(2,1fr); }
+  .findings-grid, .people-grid { grid-template-columns: repeat(2,1fr); }
   .source-grid { grid-template-columns: repeat(2,1fr); }
   .main-nav { display: none; }
 }
@@ -215,7 +222,7 @@ h1 { max-width: 720px; font-size: clamp(2.9rem, 7vw, 6.5rem); letter-spacing: -.
   .section { padding: 59px 0; }
   .section-heading { display:block; }
   .section-heading p { margin-top: 15px; }
-  .parents, .children, .findings-grid, .source-grid, .places-grid, .fact-list { grid-template-columns: 1fr; }
+  .parents, .children, .findings-grid, .people-grid, .source-grid, .places-grid, .fact-list { grid-template-columns: 1fr; }
   .children { gap: 8px; }
   .timeline::before { left: 81px; }
   .timeline-item { grid-template-columns: 64px 1fr; gap: 30px; }
