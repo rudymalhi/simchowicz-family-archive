@@ -25,7 +25,8 @@ const external = {
   usHoloSkarzysko: "https://encyclopedia.ushmm.org/content/en/oral-history/abraham-lewent-describes-conditions-in-skarzysko-camp",
   fuBerlin: "https://www.fu-berlin.de/presse/publikationen/tsp/archiv/2008/ts_20080419/ts_200800419_11/index.html",
   jewishMuseum: "https://www.jmberlin.de/berlin-transit/orte/en/talmudtora.php",
-  isaacBook: "isaac-eliezer-family-book.pdf"
+  isaacBook: "isaac-eliezer-family-book.pdf",
+  familyTreeBook: "simchowicz-family-tree-2021.pdf"
 };
 
 const t = {
@@ -190,7 +191,7 @@ const t = {
         ["Paula’s camp route", "Verify the unclear camp name in the CV and the exact sequence between Tarnów, Płaszów, Skarżysko, and Częstochowa."]
       ]
     },
-    footer: { eyebrow: "A living archive", note: "Built from family documents, a family spreadsheet, and public archival context. Last updated 7 September 2026.", privacy: "Living people are not profiled here; uncertain claims are labelled.", sources: "View sources" }
+    footer: { eyebrow: "A living archive", note: "Built from family documents, a family spreadsheet, and public archival context. Last updated 10 September 2026.", privacy: "Living people are not profiled here; uncertain claims are labelled.", sources: "View sources" }
   },
   he: {
     title: "ארכיון משפחת שמחוביץ",
@@ -311,7 +312,7 @@ const t = {
     questions: {
       kicker: "המחקר נמשך", title: "מה עדיין חסר", text: "היסטוריה משפחתית טובה משאירה את אי־הוודאות גלויה. אלה השאלות הבאות שסביר ביותר שיהפכו את המתווה לגנאלוגיה מתועדת במלואה.", items: [["מתי ואסתר אחרי 1938", "לאתר אותם בחומרי זבונשין של ארולסן ושל JDC, ואז לעקוב אחר רישומי הגטו והגירושים מטארנוב."], ["גורל האחים והאחיות", "יד ושם מתעד כעת את מותם של מתֶס/מתי, מינה וסשה בטארנוב בשנת 1943. יש לאמת את האחים הנותרים וליישב את גרסאות השמות בין הרשומות."], ["סאלו / סאלה", "להשתמש במסמך יד ושם 4115983, שכותרתו Shlomo Simkhovich, לצד עדויות הגלויות המשפחתיות, ואז להשוות לרשומת ארולסן 78813850. אין אישור שסאלה הוא סאלו/שלמה ולכן אין למזג אותם."], ["רוזה / Roza", "להשוות את רשומת ארולסן 78827309 לרוזה שושנה; אין אישור שמדובר באותה אישה ולכן אין למזג את הרשומות."], ["אסתר / Ester / Erma / Erna", "לפתור את גרסאות האיות של שם האם באמצעות רישום לידה, נישואין, פליטים או מרשם ברלינאי."], ["הקשר לאופן", "לקבוע אם „אופן“ הוא שם נעורים, שם לאחר נישואין או ענף משפחתי קשור."], ["הרשומה האזרחית המקורית", "לקבל אישור לפרסום חומר JRI, ואז לבדוק את כיוון המחקר מול רשומת הלידה המקורית בארכיון נובי סונץ׳."], ["גרנָדירשטראסה 14 או 17", "להשתמש ברשומות ברלינאיות כדי לקבוע אם מספר 14 משקף מעבר מאוחר יותר, כרטיס קשור או טעות; מספר 17 נותר הכתובת המרכזית."], ["התאמה אישית ברשימת JDC", "לחפש ברשימת השמות של JDC את פאולה, מתי וגרסאות האיות; החיפוש שנחסם אינו מוכיח היעדרות."], ["מסלול המחנות של פאולה", "לאמת את שם המחנה הלא ברור בקורות החיים ואת הרצף המדויק בין טארנוב, פלאשוב, סקרז׳יסקו וצ׳נסטוחובה."]]
     },
-    footer: { eyebrow: "ארכיון חי", note: "נבנה ממסמכים משפחתיים, גיליון משפחתי והקשר מארכיונים ציבוריים. עדכון אחרון: 7 בספטמבר 2026.", privacy: "אנשים החיים כיום אינם מתועדים כאן; טענות לא ודאיות מסומנות.", sources: "למקורות" }
+    footer: { eyebrow: "ארכיון חי", note: "נבנה ממסמכים משפחתיים, גיליון משפחתי והקשר מארכיונים ציבוריים. עדכון אחרון: 10 בספטמבר 2026.", privacy: "אנשים החיים כיום אינם מתועדים כאן; טענות לא ודאיות מסומנות.", sources: "למקורות" }
   },
   de: {
     title: "Familienarchiv Simchowicz",
@@ -388,7 +389,7 @@ const t = {
     questions: {
       kicker: "Die Forschung geht weiter", title: "Was noch gefunden werden muss", text: "Eine gute Familiengeschichte macht Unsicherheiten sichtbar. Diese Fragen können aus dem Entwurf eine vollständig belegte Genealogie machen.", items: [["Mates und Ester nach 1938", "In den Zbąszyń-Unterlagen von Arolsen und JDC suchen und anschließend Ghetto- und Deportationsunterlagen aus Tarnów verfolgen."], ["Die Schicksale der Geschwister", "Isaac Eliezer, Rosa, Salo, Mina und Sascha in Überlebenden-, Opfer-, Ghetto-, Lager- oder Nachkriegsunterlagen bestätigen."], ["Salo / Sala", "Das Yad-Vashem-Dokument 4115983 mit dem Titel Shlomo Simkhovich gemeinsam mit dem Postkartenbeleg „S. Simchowicz“ verwenden und anschließend mit dem Arolsen-Datensatz 78813850 vergleichen. Sala ist nicht als Salo/Shlomo bestätigt und bleibt getrennt."], ["Roza / Rosa", "Den Arolsen-Datensatz 78827309 mit Rosa Shoshana vergleichen. Roza ist nicht als Rosa bestätigt und bleibt eine getrennte, ungeklärte Identität."], ["Ester / Esther / Erma / Erna", "Die Schreibvarianten des Namens der Mutter durch Geburts-, Heirats-, Flüchtlings- oder Berliner Melderegister klären."], ["Die Verbindung zu Ofen", "Feststellen, ob „Ofen“ ein Mädchenname, ein Ehename oder ein verbundener Familienzweig ist."], ["Der ursprüngliche Zivilstandsdatensatz", "Für die Veröffentlichung des JRI-Materials eine Genehmigung einholen und den Forschungshinweis anschließend mit dem ursprünglichen Zivilstandsdatensatz aus Nowy Sącz prüfen."], ["Grenadierstraße 14 oder 17", "Mit Berliner Unterlagen klären, ob Nr. 14 einen späteren Umzug, eine verbundene Karte oder eine Abweichung bezeichnet; Nr. 17 bleibt die zentrale Adresse."], ["Personenabgleich in der JDC-Liste", "Paula, Mates und Schreibvarianten im JDC-Namensindex suchen; die blockierte Suche beweist keine Abwesenheit."], ["Paulas Lagerrute", "Den unklaren Lagernamen im Lebenslauf sowie die genaue Folge Tarnów, Płaszów, Skarżysko und Częstochowa bestätigen."]]
     },
-    footer: { eyebrow: "Ein lebendes Archiv", note: "Erstellt aus Familiendokumenten, einer Familientabelle und öffentlichem Archivkontext. Aktualisiert am 7. September 2026.", privacy: "Lebende Personen werden hier nicht profiliert; unsichere Angaben sind gekennzeichnet.", sources: "Quellen ansehen" }
+    footer: { eyebrow: "Ein lebendes Archiv", note: "Erstellt aus Familiendokumenten, einer Familientabelle und öffentlichem Archivkontext. Aktualisiert am 10. September 2026.", privacy: "Lebende Personen werden hier nicht profiliert; unsichere Angaben sind gekennzeichnet.", sources: "Quellen ansehen" }
   }
 };
 
@@ -651,6 +652,69 @@ Object.entries(familyPerspective).forEach(([lang, perspective]) => {
   t[lang].about = perspective.about;
   t[lang].people = perspective.people;
   t[lang].places = perspective.places;
+});
+
+const familyTreeBookEvidence = {
+  en: {
+    updates: [
+      ["family", "The family booklet reaches one generation earlier", "The Hebrew booklet, prepared for the 11 August 2021 family gathering, traces the known line to Yitzhak Scherer and Yehudit Simchowicz. It names ten children, including Mates/Matityahu, Abraham-Yehiel, Malka, Rosa-Shoshana, Karolina-Kreindel, Esther and Hannah, with two children still unidentified. It says Yitzhak died in 1907 at about forty from tuberculosis; Yehudit later moved with the children to Berlin, supported the family through a restaurant, and died in 1935. The booklet explains that the Simchowicz surname continued although Yitzhak was born Scherer, possibly because the marriage was religious rather than civil. These are family claims awaiting civil and cemetery-record verification.", `<a href="${external.familyTreeBook}" target="_blank" rel="noreferrer">Read the 2021 family booklet ↗</a>`],
+      ["family", "The booklet preserves a different Tarnów chronology", "The Paula chapter says that after the liquidation of the Tarnów ghetto in late September 1942, Mates, Esther, Rosa, Mina and Sascha were sent to Bełżec while Paula was away at forced labor. It says she continued through Płaszów and Częstochowa until liberation in January 1945 and reached Israel from Italy in August 1947. This family account conflicts in date and place with the Yad Vashem Pages of Testimony that record Mates, Mina and Sascha as dying in Tarnów in 1943, so it is presented as testimony rather than a replacement for the direct records.", `<a href="${external.familyTreeBook}" target="_blank" rel="noreferrer">See the Paula chapter in the booklet ↗</a>`],
+      ["family", "Isaac’s and Salo’s escape routes gain detail", "The booklet says Isaac received an immigration certificate from Yishuv Hadash in July 1939 and reached Palestine in August 1939. After May 1945 it places him with the Jewish Agency and UNRRA among displaced-persons camps, including the Hof camp, and says he met Paula in Rome. It also describes Salo being moved into Poland hidden in a truck on 1 January 1939, then traveling through Białystok and Vilna before reaching Palestine on 1 April 1940. These details complement, but do not replace, the independent records and Salo’s testimony.", `<a href="${external.familyTreeBook}" target="_blank" rel="noreferrer">Open the route accounts ↗</a>`]
+    ],
+    source: ["family", "The Simchowicz family tree booklet, 2021", "A Hebrew family compilation prepared for a gathering on 11 August 2021. It adds an older generation before Mates, photographs and family trees, and family accounts of the Berlin household, Tarnów, postwar Europe and Israel. It contains many living-family names, so this site uses it selectively and does not reproduce private details.", `<a href="${external.familyTreeBook}" target="_blank" rel="noreferrer">Open the family booklet ↗</a>`],
+    ledger: ["The Simchowicz family tree.pdf", "Family source", "2021 Hebrew family compilation: Yitzhak Scherer and Yehudit Simchowicz as the generation before Mates; ten-child family tradition; Berlin, Tarnów, Isaac, Salo and Paula accounts; chronology and identifications require verification."],
+    questions: [
+      ["The generation before Mates", "Verify the booklet’s account of Yitzhak Scherer, Yehudit Simchowicz, their ten children, Yitzhak’s 1907 death and Yehudit’s 1935 Berlin burial through civil, synagogue and cemetery records."],
+      ["Tarnów, Bełżec and the 1943 records", "Reconcile the booklet’s late-September-1942 Bełżec account with the Yad Vashem records naming Tarnów and 1943 for Mates, Mina and Sascha, and with Paula’s sworn testimony and the camp chronology."]
+    ],
+    familyAddition: " The 2021 family booklet extends the family tradition one generation earlier to Yitzhak Scherer and Yehudit Simchowicz. It names ten children, including Mates/Matityahu, and says Yitzhak died in 1907 from tuberculosis before Yehudit moved with the children to Berlin and died there in 1935. Because this is a family compilation, the older line remains a research lead until civil, synagogue and cemetery records are found.",
+    isaacAddition: " The 2021 family booklet adds a July 1939 Yishuv Hadash immigration certificate, arrival in Palestine in August 1939, postwar work with the Jewish Agency and UNRRA at DP camps including Hof, and a meeting with Paula in Rome. These details are family-source evidence.",
+    saloAddition: " The booklet’s family account says Salo was moved into Poland hidden in a truck on 1 January 1939 and later traveled via Białystok and Vilna before reaching Palestine on 1 April 1940. This complements but does not replace his Yad Vashem testimony."
+  },
+  he: {
+    updates: [
+      ["family", "חוברת המשפחה מגיעה דור אחד מוקדם יותר", "החוברת העברית, שהוכנה לקראת המפגש המשפחתי ב־11 באוגוסט 2021, עוקבת אחר השושלת הידועה עד יצחק שרר ויהודית שמחוביץ. היא מונה עשרה ילדים, ובהם מתתיהו, אברהם־יחזקאל, מלכה, רוזה־שושנה, קרולינה־קריינדל, אסתר וחנה, ועוד שני ילדים שזהותם אינה ידועה. לפי החוברת יצחק נפטר בשנת 1907 בערך בגיל ארבעים משחפת; יהודית עברה עם הילדים לברלין, פרנסה את המשפחה באמצעות מסעדה ונפטרה בשנת 1935. החוברת מסבירה שהשם שמחוביץ נשמר אף שיצחק נשא את שם המשפחה שרר, אולי משום שהנישואים היו דתיים ולא אזרחיים. אלה טענות משפחתיות שעדיין דורשות אימות ברישומי לידה, קבורה וקהילה.", `<a href="${external.familyTreeBook}" target="_blank" rel="noreferrer">לקריאת חוברת המשפחה מ־2021 ↗</a>`],
+      ["family", "החוברת משמרת כרונולוגיה אחרת של טארנוב", "בפרק על פאולה נכתב כי לאחר חיסול גטו טארנוב בסוף ספטמבר 1942 נשלחו מתי, אסתר, רוזה, מינה וסשה לבלז׳ץ, בזמן שפאולה נעדרה בעבודת כפייה. לפי הפרק היא עבדה בפלאשוב ובצ׳נסטוחובה עד השחרור בינואר 1945 והגיעה לישראל מאיטליה באוגוסט 1947. חשבון משפחתי זה אינו תואם בתאריך ובמקום את דפי העדות של יד ושם, המתעדים את מתי, מינה וסשה כמי שמתו בטארנוב בשנת 1943; לכן הוא מוצג כעדות משפחתית ולא כתחליף לרשומות הישירות.", `<a href="${external.familyTreeBook}" target="_blank" rel="noreferrer">לפרק על פאולה בחוברת ↗</a>`],
+      ["family", "מסלולי הבריחה של יצחק וסאלו מתפרטים", "החוברת מספרת שיצחק קיבל ביולי 1939 סרטיפיקט מישיבת היישוב החדש והגיע לארץ ישראל באוגוסט 1939. לאחר מאי 1945 היא מציבה אותו בשליחות הסוכנות היהודית ואונר״א במחנות עקורים, ובהם מחנה הוף, ומספרת שפגש את פאולה ברומא. היא מוסיפה שסאלו הועבר לפולין מוסתר במשאית ב־1 בינואר 1939, עבר דרך ביאליסטוק ווילנה והגיע לארץ ישראל ב־1 באפריל 1940. פרטים אלה משלימים את המקורות העצמאיים אך אינם מחליפים אותם או את עדותו של סאלו.", `<a href="${external.familyTreeBook}" target="_blank" rel="noreferrer">למסלולי הבריחה בחוברת ↗</a>`]
+    ],
+    source: ["family", "חוברת משפחת שמחוביץ לדורותיה, 2021", "חוברת משפחתית בעברית שהוכנה למפגש ב־11 באוגוסט 2021. היא מוסיפה דור קדום יותר לפני מתתיהו, תמונות ואילנות יוחסין, ועדויות משפחתיות על הבית בברלין, טארנוב, אירופה שלאחר המלחמה וישראל. החוברת כוללת שמות רבים של בני משפחה החיים כיום, ולכן האתר משתמש בה באופן בררני ואינו משחזר פרטים פרטיים.", `<a href="${external.familyTreeBook}" target="_blank" rel="noreferrer">לפתיחת החוברת ↗</a>`],
+    ledger: ["The Simchowicz family tree.pdf", "מקור משפחתי", "חוברת משפחתית עברית משנת 2021: יצחק שרר ויהודית שמחוביץ כדור שקדם למתי; מסורת על עשרה ילדים; וחשבונות משפחתיים על ברלין, טארנוב, יצחק, סאלו ופאולה. הכרונולוגיה והזיהויים דורשים אימות."],
+    questions: [
+      ["הדור שקדם למתי", "לאמת את הסיפור על יצחק שרר, יהודית שמחוביץ, עשרת ילדיהם, מות יצחק בשנת 1907 וקבורת יהודית בברלין בשנת 1935 באמצעות רישומי לידה, קהילה ובתי קברות."],
+      ["טארנוב, בלז׳ץ ורשומות 1943", "ליישב את הסיפור בחוברת על בלז׳ץ בסוף ספטמבר 1942 עם דפי העדות של יד ושם המציינים את טארנוב ואת שנת 1943 עבור מתי, מינה וסשה, ועם הצהרת פאולה וציר המחנות."]
+    ],
+    familyAddition: " חוברת המשפחה משנת 2021 מרחיבה את המסורת המשפחתית דור אחד לאחור, אל יצחק שרר ויהודית שמחוביץ. היא מונה עשרה ילדים, ובהם מתתיהו, ומספרת שיצחק נפטר משחפת בשנת 1907 לפני שיהודית עברה עם הילדים לברלין ונפטרה שם בשנת 1935. מאחר שמדובר בחוברת משפחתית, הדור הקדום נשאר ככיוון מחקר עד לאיתור רישומי לידה, קהילה וקבורה.",
+    isaacAddition: " חוברת המשפחה מוסיפה סרטיפיקט מישיבת היישוב החדש מיולי 1939, הגעה לארץ ישראל באוגוסט 1939, עבודה לאחר המלחמה עם הסוכנות היהודית ואונר״א במחנות עקורים ובהם הוף, ומפגש עם פאולה ברומא. אלה פרטים ממקור משפחתי.",
+    saloAddition: " לפי החשבון המשפחתי בחוברת, סאלו הועבר לפולין מוסתר במשאית ב־1 בינואר 1939, עבר דרך ביאליסטוק ווילנה והגיע לארץ ישראל ב־1 באפריל 1940. הפרטים משלימים את עדותו ביד ושם אך אינם מחליפים אותה."
+  },
+  de: {
+    updates: [
+      ["family", "Das Familienheft reicht eine Generation zurück", "Das hebräische Heft für das Familientreffen vom 11. August 2021 verfolgt die bekannte Linie bis zu Yitzhak Scherer und Yehudit Simchowicz. Es nennt zehn Kinder, darunter Mates/Matityahu, Abraham-Jehiel, Malka, Rosa-Shoshana, Karolina-Kreindel, Esther und Hannah; zwei Kinder bleiben unbekannt. Danach starb Yitzhak 1907 mit etwa vierzig Jahren an Tuberkulose. Yehudit zog mit den Kindern nach Berlin, ernährte die Familie mit einem Restaurant und starb 1935. Das Heft erklärt, der Name Simchowicz habe sich erhalten, obwohl Yitzhak Scherer hieß, möglicherweise weil die Ehe religiös und nicht standesamtlich geschlossen wurde. Diese Angaben stammen aus der Familie und müssen mit Zivil- und Friedhofsunterlagen geprüft werden.", `<a href="${external.familyTreeBook}" target="_blank" rel="noreferrer">Das Familienheft von 2021 lesen ↗</a>`],
+      ["family", "Das Heft bewahrt eine andere Tarnów-Chronologie", "Das Paula-Kapitel berichtet, dass Mates, Esther, Rosa, Mina und Sascha nach der Liquidierung des Tarnów-Ghettos Ende September 1942 nach Bełżec deportiert wurden, während Paula bei der Zwangsarbeit war. Danach habe sie bis zur Befreiung im Januar 1945 in Płaszów und Częstochowa gearbeitet und sei im August 1947 aus Italien nach Israel gekommen. Diese Familienüberlieferung widerspricht in Zeit und Ort den Yad-Vashem-Pages-of-Testimony, die Mates, Mina und Sascha als 1943 in Tarnów gestorben verzeichnen. Sie wird deshalb als Familienzeugnis und nicht als Ersatz für die direkten Quellen geführt.", `<a href="${external.familyTreeBook}" target="_blank" rel="noreferrer">Paulas Kapitel im Heft ↗</a>`],
+      ["family", "Isaacs und Salos Fluchtwege werden genauer", "Das Heft berichtet, Isaac habe im Juli 1939 ein Einwanderungszertifikat von Yishuv Hadash erhalten und sei im August 1939 nach Palästina gelangt. Nach Mai 1945 habe er als Beauftragter der Jewish Agency und UNRRA in DP-Lagern, darunter Hof, gearbeitet und Paula in Rom getroffen. Salo sei am 1. Januar 1939 versteckt in einem Lastwagen nach Polen gebracht worden, über Białystok und Wilna weitergereist und am 1. April 1940 in Palästina angekommen. Diese Angaben ergänzen die unabhängigen Quellen und Salos Zeugnis, ersetzen sie aber nicht.", `<a href="${external.familyTreeBook}" target="_blank" rel="noreferrer">Die Fluchtwege öffnen ↗</a>`]
+    ],
+    source: ["family", "Das Simchowicz-Familienheft, 2021", "Eine hebräische Familienzusammenstellung für das Treffen am 11. August 2021. Sie ergänzt eine Generation vor Mates, Fotos und Stammbäume sowie Familienberichte über Berlin, Tarnów, das Nachkriegseuropa und Israel. Da sie viele Namen lebender Angehöriger enthält, verwendet die Website sie selektiv und veröffentlicht keine privaten Details.", `<a href="${external.familyTreeBook}" target="_blank" rel="noreferrer">Das Familienheft öffnen ↗</a>`],
+    ledger: ["The Simchowicz family tree.pdf", "Familienquelle", "Hebräische Familienzusammenstellung von 2021: Yitzhak Scherer und Yehudit Simchowicz als Generation vor Mates; Überlieferung von zehn Kindern; Familienberichte zu Berlin, Tarnów, Isaac, Salo und Paula. Chronologie und Identifizierungen müssen geprüft werden."],
+    questions: [
+      ["Die Generation vor Mates", "Die Angaben zu Yitzhak Scherer, Yehudit Simchowicz, ihren zehn Kindern, Yitzhaks Tod 1907 und Yehudits Berliner Grab 1935 durch Zivil-, Gemeinde- und Friedhofsunterlagen überprüfen."],
+      ["Tarnów, Bełżec und die Belege für 1943", "Den Bericht über Bełżec Ende September 1942 mit den Yad-Vashem-Belegen für Tarnów und 1943 bei Mates, Mina und Sascha sowie mit Paulas Aussage und der Lagerchronologie abgleichen."]
+    ],
+    familyAddition: " Das Familienheft von 2021 führt die Familienüberlieferung eine Generation zurück zu Yitzhak Scherer und Yehudit Simchowicz. Es nennt zehn Kinder, darunter Mates/Matityahu, und berichtet, Yitzhak sei 1907 an Tuberkulose gestorben, bevor Yehudit mit den Kindern nach Berlin zog und dort 1935 starb. Da es sich um eine Familienzusammenstellung handelt, bleibt diese ältere Linie ein Forschungshinweis, bis Zivil-, Gemeinde- und Friedhofsunterlagen gefunden sind.",
+    isaacAddition: " Das Familienheft ergänzt ein Einwanderungszertifikat von Yishuv Hadash vom Juli 1939, die Ankunft in Palästina im August 1939, Isaacs Nachkriegsarbeit mit Jewish Agency und UNRRA in DP-Lagern einschließlich Hof sowie sein Treffen mit Paula in Rom. Diese Angaben sind als Familienquelle gekennzeichnet.",
+    saloAddition: " Nach dem Familienbericht im Heft wurde Salo am 1. Januar 1939 versteckt in einem Lastwagen nach Polen gebracht und reiste später über Białystok und Wilna, bevor er am 1. April 1940 Palästina erreichte. Dies ergänzt sein Yad-Vashem-Zeugnis, ersetzt es aber nicht."
+  }
+};
+
+Object.entries(familyTreeBookEvidence).forEach(([lang, evidence]) => {
+  t[lang].updates.cards.splice(1, 0, ...evidence.updates);
+  t[lang].sources.cards.splice(0, 0, evidence.source);
+  t[lang].sources.ledger.splice(0, 0, evidence.ledger);
+  evidence.questions.forEach((question, index) => t[lang].questions.items.splice(1 + index, 0, question));
+  t[lang].family.text += evidence.familyAddition;
+  const isaacIndex = t[lang].people.cards.findIndex((card) => card[1].includes(lang === "he" ? "יצחק אליעזר" : "Isaac Eliezer"));
+  if (isaacIndex >= 0) t[lang].people.cards[isaacIndex][3] += evidence.isaacAddition;
+  const saloIndex = t[lang].people.cards.findIndex((card) => card[1].includes(lang === "he" ? "סאלו" : lang === "de" ? "Salo" : "Salo"));
+  if (saloIndex >= 0) t[lang].people.cards[saloIndex][3] += evidence.saloAddition;
 });
 
 const statusClass = { direct: "direct", family: "family", context: "family", lead: "lead", confirmed: "direct", likely: "family", open: "lead" };
